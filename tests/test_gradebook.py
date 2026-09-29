@@ -22,6 +22,8 @@ def test_median_basic():
     assert median([1, 3, 2]) == 2
     assert median([1, 2, 3, 4]) == 2.5
     assert median([]) == 0.0
+
+
 def test_letter_grade_basic():
     assert letter_grade(95) == "A"
     assert letter_grade(85) == "B"
